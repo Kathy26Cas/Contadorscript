@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+}
+
+.contenedor {
+    margin: 100px auto;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 50px;
+}
+
+h1 {
+    font-size: 65px;
+    color: black;
+    letter-spacing: 14px;
+}
+
+h2 {
+    font-size: 80px;
+    color: rgb(22, 22, 20);
+}
+
+button {
+    border: none;
+    padding: 18px 10px;
+    font-size: 19px;
+    width: 180px;
+    margin: 10px;
+    text-transform: uppercase;
+    color: #65c7f7;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 7px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #65c7f7;
+    color: white;
+    transition: 0.4s;
+    border: none;
+}
